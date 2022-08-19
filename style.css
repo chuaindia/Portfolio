@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-html,
 body {
   margin: 0;
   padding: 0;
@@ -55,7 +54,7 @@ h1 {
 }
 
 .headline {
-  background: #fff url(./assest/header-illsutration-mobile.svg) no-repeat;
+  background-color: aquamarine;
   background-size: 100%;
   overflow: hidden;
 }
