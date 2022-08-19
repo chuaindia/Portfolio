@@ -5,7 +5,6 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 2em;
-
   --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
   --shadow-accent: 0 2px 50px -1px rgba(0, 0, 0, 0.8);
   --color-primary: #227452;
@@ -16,49 +15,55 @@ body {
   background: #fff;
   font-family: 'Inter', sans-serif;
 }
+
 h1 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172b4d;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .container {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  .container-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .link-contact:hover {
-    color: var(--color-primary);
-  }
-  .header-logo {
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    color: #28352f;
-  }
-  .headline {
-    background: #fff url(./assest/header-illsutration-mobile.svg) no-repeat;
-    background-size: 100%;
-    overflow: hidden;
-  }
-  .social-media {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    width: 170px;
-  }
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.link-contact:hover {
+  color: var(--color-primary);
+}
+
+.header-logo {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+}
+
+.headline {
+  background: #fff url(./assest/header-illsutration-mobile.svg) no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+}
