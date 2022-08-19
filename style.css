@@ -60,3 +60,11 @@ h1 {
   justify-content: center;
   width: 170px;
 }
+
+.hamburger {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
