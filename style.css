@@ -1,3 +1,5 @@
+/* stylelint-disable indentation */
+/* stylelint-disable rule-empty-line-before */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
@@ -125,25 +127,56 @@ body.active {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: var(--header-color);
   padding: 128px 24px 0;
+  width: 100%;
+  position: fixed;
+  background-color: var(--white-bg-color);
+  padding-top: 0;
+  padding-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+  color: #091e42;
 }
 
 .portfolio-description {
   font-size: 16px;
   line-height: 24px;
-  color: var(--paragraph-color);
   margin: 12px 24px;
+  width: 63px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #344563;
 }
 
 .lets-connect {
   font-size: 16px;
   font-weight: 500;
-  color: var(--enabled-btn-color);
   margin-left: 24px;
   margin-bottom: 12px;
+  width: 117px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 18.06%;
+  right: 80.56%;
+  top: 12.53%;
+  bottom: 87.08%;
+  background: #505f79;
 }
-
 .social-media-links {
   width: 160px;
   display: flex;
@@ -176,18 +209,19 @@ body.active {
   padding-top: 114px;
 }
 
-
 @media only screen and (min-width: 768px) {
-  body {
+ body {
     width: 100vw;
   }
 
-  header {
-    width: 100%;
-    position: fixed;
-    background-color: var(--white-bg-color);
-    padding-top: 0;
-    padding-bottom: 5px;
+  .bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   #hamburger {
@@ -195,7 +229,14 @@ body.active {
   }
 
   #logo {
-    margin-left: 150px;
+    width: 76px;
+    height: 20px;
+    margin: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
     transition: transform 0.4s ease-in-out;
   }
 
@@ -257,165 +298,4 @@ body.active {
     font-size: 16px;
     margin-top: 40px;
   }
-}
-
-/* LOGO */
-
-logo {
-  width: 76px;
-  height: 20px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-}
-
-/* Hamburger */
-
-bar {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070FF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-/* Portoflio */
-
-
-portfolio-description {
-  width: 63px;
-  height: 20px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #344563;
-}
-
-
-/* Header / 1 */
-
-header {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.37px;
-  color: #091E42;
-}
-
-
-body {
-  position: absolute;
-  width: 1440px;
-  height: 916px;
-  left: 0px;
-  top: 1px;
-  background: #FFFFFF;
-  position: absolute;
-  width: 204px;
-  height: 47px;
-  left: 1146px;
-  top: 221px;
-  background: #EBEBFF;
-  transform: rotate(-30deg);
-}
-
-/* LET’S CONNECT */
-
-
-lets-connect {
-  width: 117px;
-  height: 24px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7F8CFF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  position: absolute;
-  left: 18.06%;
-  right: 80.56%;
-  top: 12.53%;
-  bottom: 87.08%;
-  background: #505F79;
-  position: absolute;
-  left: 20.76%;
-  right: 78.89%;
-  top: 12.65%;
-  bottom: 87.08%;
-  background: #505F79;
-  position: absolute;
-  left: 23.54%;
-  right: 75.07%;
-  top: 12.57%;
-  bottom: 87.12%;
-  background: #505F79;
-}
-
-
-body {
-  position: absolute;
-  width: 224px;
-  height: 224px;
-  left: 1208px;
-  top: 192px;
-  background: #6070FF;
-}
-
-body {
-  position: absolute;
-  width: 47px;
-  height: 47px;
-  left: 839px;
-  top: 758px;
-  background: #6070FF;
-}
-
-body {
-  position: absolute;
-  width: 80.48px;
-  height: 40.24px;
-  left: 139.2px;
-  top: 260.68px;
-  background: #6070FF;
-  transform: rotate(-156.88deg);
-}
-
-
-/* Rectangle 7 */
-
-body {
-  position: absolute;
-  width: 56.01px;
-  height: 10.02px;
-  left: 693.25px;
-  top: 261.57px;
-  background: #6070FF;
-  transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
-}
-
-/* Ellipse 5 */
-
-body {
-  position: absolute;
-  width: 23px;
-  height: 23px;
-  left: 708px;
-  top: 257px;
-  background: #EBEBFF;
 }
