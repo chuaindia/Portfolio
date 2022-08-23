@@ -14,247 +14,79 @@
   --disabled-btn-color: #5e6c84;
 }
 
-body {
-  font-family: 'blue', sans-serif;
-  background-color: #f8f9fa;
-  margin: 0;
-  overflow-x: hidden;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 36px 15px 24px;
-  box-sizing: border-box;
-  background-color: var(--white-bg-color);
-  z-index: 1;
-}
-
-#logo {
-  width: 76px;
-  height: 20px;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--primary-color);
-}
-
-#hamburger {
-  display: block;
-  cursor: pointer;
-}
-
-#hamburger.active {
-  float: right;
-  margin-top: 20px;
-  margin-right: 35px;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: var(--primary-color);
-}
-
-#headline.active {
-  filter: blur(4px);
-}
-
-#hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-#hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-  background-color: var(--white-bg-color);
-}
-
-#hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-  background-color: var(--white-bg-color);
-}
-
-#nav-menu {
-  display: none;
-}
-
-#mobile-navbar {
-  background-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-
-#mobile-navbar.active {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(96, 112, 255, 0.9);
-}
-
-#mobile-nav-menu {
-  display: none;
-}
-
-#mobile-navbar.active #mobile-nav-menu {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: space-between;
-  margin-top: 80px;
-}
-
-#headline {
-  width: 375px;
-  height: 700px;
-  margin: 0 auto;
-  border-bottom-left-radius: 80px;
-}
-
-body.active {
-  overflow-y: hidden;
-}
-
-.header {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  padding: 128px 24px 0;
-  width: 100%;
-  position: fixed;
-  background-color: var(--white-bg-color);
-  padding-top: 0;
-  padding-bottom: 5px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.37px;
-  color: #091e42;
-}
-
-.portfolio-description {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 12px 24px;
-  width: 63px;
-  height: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #344563;
-}
-
-.lets-connect {
-  font-size: 16px;
-  font-weight: 500;
-  margin-left: 24px;
-  margin-bottom: 12px;
-  width: 117px;
-  height: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  line-height: 24px;
-  color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  position: absolute;
-  left: 18.06%;
-  right: 80.56%;
-  top: 12.53%;
-  bottom: 87.08%;
-  background: #505f79;
-}
-.social-media-links {
-  width: 160px;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 24px;
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.social-media-link {
-  color: #505f79;
-  text-decoration: none;
-}
-
-.social-media-link i:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-}
-
-#about-myself {
-  width: 375px;
-  background-color: var(--white-bg-color);
-  border-top-right-radius: 80px;
-  margin: 114px auto 0;
-  padding-bottom: 100px;
-}
-
-#about-myself .header {
-  margin-top: 0;
-  padding-top: 114px;
-}
-
-@media only screen and (min-width: 768px) {
- body {
+@media only screen and (min-width: 250px) {
+  body {
     width: 100vw;
   }
 
-  .bar {
+  header {
+    width: 250px;
+    position: fixed;
+    background-color: var(--white-bg-color);
+    padding-top: 0;
+    padding-bottom: 5px;
     display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  #hamburger {
-    display: none;
+    justify-content: space-between;
   }
 
   #logo {
-    width: 76px;
-    height: 20px;
-    margin: 150px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+    margin-left: 0;
     transition: transform 0.4s ease-in-out;
   }
 
   #logo:hover {
     transform: scale(1.1);
   }
+  #hamburger {
+    display: block;
+    margin-inline: 0;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  #hamburger:hover {
+    transform: scale(1.1);
+  }
+  #hamburger.active {
+    float: right;
+    margin-top: 20px;
+    margin-right: 35px;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: var(--primary-color);
+  }
+  #headline.active {
+    filter: blur(4px);
+  }
+
+  #hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  #hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: var(--white-bg-color);
+  }
+  #hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: var(--white-bg-color);
+  }
 
   #nav-menu {
-    width: 235px;
+    background-color: #ff60f2;
+    width: 250px;
     display: flex;
-    justify-content: space-between;
-    margin-right: 164px;
+    justify-content: space-evenly;
+    padding-left: 0%;
   }
 
   .nav-link {
     list-style-type: none;
     font-size: 15px;
     font-weight: 500;
+    color: #000;
   }
 
   .nav-link a {
@@ -267,20 +99,23 @@ body.active {
   .nav-link a:hover {
     color: var(--primary-color);
   }
-
+  #nav-container {
+    display: none;
+  }
   #headline {
-    width: 100vw;
-    height: 916px;
+    width: 250px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-size: contain;
-    border-bottom-left-radius: 150px;
+    background-color: #2230d2;
   }
 
   #headline-content {
-    width: 63.8%;
-    margin-top: 238px;
+    width: 250px;
+    margin-top: 50px;
+    background-color: #2230d2;
   }
 
   #headline .header {
@@ -292,6 +127,8 @@ body.active {
   .portfolio-description {
     font-size: 20px;
     line-height: 28px;
+    color: blueviolet;
+    margin-left: 0;
   }
 
   .lets-connect {
