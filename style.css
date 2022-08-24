@@ -286,6 +286,7 @@ ul {
 }
 
 .about {
+  display: flex;
   border-top-right-radius: 60px;
 }
 
