@@ -111,12 +111,12 @@ nav {
   background-color: var(--white-bg-color);
 }
 
-/* .menu-icon {
+.menu-icon {
   width: 24px;
   height: 24px;
   margin-right: 12px;
   cursor: pointer;
-} */
+}
 
 section {
   display: grid;
