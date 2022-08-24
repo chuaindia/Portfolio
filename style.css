@@ -66,7 +66,7 @@ nav {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: var(--primary-color);
+  background-color: black;
 }
 
 #mobile-navbar {
@@ -103,7 +103,7 @@ nav {
 
 #hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-  background-color: var(--white-bg-color);
+  background-color: black;
 }
 
 #hamburger.active .bar:nth-child(3) {
