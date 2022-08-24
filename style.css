@@ -285,8 +285,11 @@ ul {
   color: #fff;
 }
 
+.aboutbg-white {
+  display: flexbox;
+}
+
 .about {
-  display: flex;
   border-top-right-radius: 60px;
 }
 
@@ -302,6 +305,7 @@ ul {
 }
 
 .btn-chev {
+  color: black;
   border: none;
   outline: none;
   padding: 8px;
