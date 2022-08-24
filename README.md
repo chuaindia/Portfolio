@@ -1,6 +1,7 @@
 # My Portfolio
 
-> Description the project.
+> Description 
+> This is the Portfolio project where one by one different features are introduced following Figma template.
 > This project contains my personal information and all the projects I have built using HTML and CSS.
 > In this part of the project I designed the header section(toolbar) and Headline section
 
