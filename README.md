@@ -1,48 +1,34 @@
-Project Name
-Description the project.
+# My Portfolio
 
-Built With
-Major languages
-Frameworks
-Technologies used
-Live Demo (if available)
-Live Demo Link
+> Description 
+> This is the Portfolio project where one by one different features are introduced following Figma template.
+> This project contains my personal information and all the projects I have built using HTML and CSS.
+> In this part of the project I designed the header section(toolbar) and Headline section
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+## Built With
 
-To get a local copy up and running follow these simple example steps.
+- HTML
+- CSS
 
-Prerequisites
-Setup
-Install
-Usage
-Run tests
-Deployment
-Authors
-bust_in_silhouette Author1
+## Authors
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-bust_in_silhouette Author2
+👤 **Tanusri Ghosh**
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-handshake Contributing
+- GitHub: [@chuaindia](https://github.com/chuaindia)
+- Twitter: [@chuaghosh25](https://twitter.com/chuaghosh25)
+- LinkedIn: [Tanusri Ghosh](https://www.linkedin.com/in/tanusri-ghosh-2a56b814//)
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+## Show your support
 
-Show your support
-Give a star if you like this project!
+Give a ⭐ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
-memo License
-This project is MIT licensed.
+## 📝 License
 
-NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
+
+This project is [MIT](./LICENSE) licensed.
+
+
