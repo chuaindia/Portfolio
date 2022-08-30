@@ -252,7 +252,7 @@ ul {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  border: 1px solid coral;
+  /* border: 1px solid coral; */
   color: #6070ff;
   font-weight: 500;
   font-size: 12px;
@@ -277,7 +277,7 @@ ul {
   font-family: inherit;
   font-style: normal;
   border-radius: 8px;
-  border: 1px solid coral;
+  /* border: 1px solid coral; */
   background: transparent;
   color: #396df2;
   cursor: pointer;
@@ -414,5 +414,5 @@ ul {
 .btn-submit:hover {
   background: transparent;
   color: #fff;
-  border: 2px solid rgb(207, 11, 11);
+  /* border: 2px solid rgb(207, 11, 11); */
 }
