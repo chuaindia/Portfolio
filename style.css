@@ -97,7 +97,7 @@ nav {
   margin-top: 80px;
 }
 
-#hamburger.active .bar:nth-child(2) {
+/* #hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
 
@@ -110,6 +110,7 @@ nav {
   transform: translateY(-8px) rotate(-45deg);
   background-color: var(--white-bg-color);
 }
+*/
 
 .menu-icon {
   width: 24px;
@@ -251,6 +252,7 @@ ul {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
+  border: 1px solid coral;
   color: #6070ff;
   font-weight: 500;
   font-size: 12px;
@@ -263,6 +265,8 @@ ul {
 }
 
 .btn-default {
+  float: left;
+  margin: 10px 10px 10px 10px;
   width: fit-content;
   padding: 10px;
   font-weight: 500;
@@ -272,8 +276,8 @@ ul {
   letter-spacing: 0.03em;
   font-family: inherit;
   font-style: normal;
-  border: 1px solid #6070ff;
   border-radius: 8px;
+  border: 1px solid coral;
   background: transparent;
   color: #396df2;
   cursor: pointer;
@@ -343,6 +347,7 @@ ul {
 }
 
 .contact-me {
+  display: flexbox;
   background-color: #6070ff;
   background-image: url("image/contac-shape-bg.svg");
   background-repeat: no-repeat;
@@ -389,6 +394,7 @@ ul {
 }
 
 .btn-submit {
+  margin-left: 25%;
   padding: 10px;
   font-weight: 500;
   font-size: 17px;
@@ -408,5 +414,5 @@ ul {
 .btn-submit:hover {
   background: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid rgb(207, 11, 11);
 }
