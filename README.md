@@ -3,6 +3,8 @@
 > This is the Portfolio project where one by one different features are introduced following Figma template.
 > This project contains my personal information and all the projects I have built using HTML and CSS.
 > In this part of the project I designed the header section(toolbar) and Headline section.
+> A contact form has been implemented where user can fill-up their informations.
+
 
 ## Built With
 
