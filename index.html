@@ -266,8 +266,13 @@
           <p>
             Feel free to contact me if any of your development needs any sorts of modification .
           </p>
-          <form class="contact-form" action="#" method="post">
-            <input type="text" name="name" placeholder="Your Name" required />
+          <form class="contact-form" action="https://formspree.io/f/xayknkna" method="POST">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              maxlength="30"
+              required />
             <input
               type="email"
               name="email"
@@ -279,12 +284,10 @@
               cols="30"
               rows="6"
               placeholder="Write your message here"
+              maxlength="500"
               required
             ></textarea>
             <button class="btn-submit" type="submit">Get connected</button>
-            <button class="btn-submit" type="submit">Hover</button>
-            <button class="btn-submit" type="submit">Press</button>
-            <button class="btn-submit" type="submit">Enable</button>
           </form>
         </section>
       </main>
