@@ -2,295 +2,317 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+    />
+    
   </head>
+
   <body>
-    <div class="wrapper">
-      <header class="bg-white">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
+    <!-- Header Section -->
+    <div class="welcomeHeaderContainer">
+      <header>
         <nav>
-          <div id="mobile-navbar">
-            <div id="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-           </div>
+          <div class="logo-welcome">
+            <a href="#" class="welcome-link">Welcome</a>
+          </div>
+          <a href="#" class="hamburger-menu"
+            ><i class="fa-solid fa-bars"></i
+          ></a>
+          <ul class="navItems">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
         </nav>
       </header>
+      <!-- Welcome Section -->
+      <section>
+        <div class="welcome-section">
+          <div class="container">
+            <h1>
+              <br> Tanusri here from India. <br> Glad to see you.
+            </h1>
+            <h2>I am a Software Developer</h2>
+            <p>
+              If you have a project to be coded or you need any modification in the existing project do not hestiate to contact me.
+            </p>
 
-      <main>
-        <section class="headline bg-white">
-          <h1 class="title">Hello! <br> Tanusri here from India. <br> Glad to see you!</h1>
-          <p class="details">
-            I am a software developer! If you have a project you need coded, do not hestiate to
-            contact me.
-          </p>
-          <div class="social-media">
-            <a class="contact-link" href="#">CONNECT</a>
-            <ul class="social-media-links">
-              <li>
-                <a href="#"
-                  ><img src="image/tw.png" alt="Twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    src="image/linkedin.png"
-                    alt="LinkedIn"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="image/medium.png" alt="Medium"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="image/github.png" alt="Github"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="image/v.png" alt="V"
-                /></a>
-              </li>
-            </ul>
+            <div class="social-link">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-angellist"></i></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      class="meduim-logo"
+                      src="images/Font_Awesome_5_brands_medium-m.svg.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bottom-arrow">
+              <div>
+                <a href="#">
+                  <span class="bottom"></span>
+                </a>
+              </div>
+            </div>
           </div>
-        </section>
-
-        <section class="works">
-          <article class="card bg-white">
-            <figure>
-              <img src="image/tonic.png" alt="Tonic" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Tonic</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="separator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="separator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-          <article class="card bg-white">
-            <figure>
-              <img src="image/multi.png" alt="multi" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Multi-Post Stories</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="separator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="separator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-          <article class="card bg-white">
-            <figure>
-              <img src="image/yoga.png" alt="yoga" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Tonic</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="separator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="separator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-          <article class="card bg-white">
-            <figure>
-              <img src="image/art.png" alt="yoga" />
-            </figure>
-            <div class="project-info">
-              <div class="project-header">
-                <h2 class="project-title">Multi-Post Stories</h2>
-                <div class="header-details">
-                  <p class="client">CANOPY</p>
-                  <span class="separator-circle"></span>
-                  <p class="role">Back End Dev</p>
-                  <span class="separator-circle"></span>
-                  <p class="year">2015</p>
-                </div>
-              </div>
-              <p class="project-details">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="tags">
-                <li class="tag">html</li>
-                <li class="tag">css</li>
-                <li class="tag">javaScript</li>
-              </ul>
-              <div class="action">
-                <button class="btn-default" type="button">See Project</button>
-              </div>
-            </div>
-          </article>
-        </section>
-        <section class="about bg-white">
-          <h2 class="title">About Myself</h2>
-          <p class="details">
-            I am a software developer! If you have a project you need coded, do not hestiate to
-            contact me.
-          </p>
-          <div class="social-media">
-            <a class="contact-link" href="#">LET US CONNECT</a>
-            <ul class="social-media-links">
-              <li>
-                <a href="#"
-                  ><img src="image/tw.png" alt="Twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    src="image/linkedin.png"
-                    alt="LinkedIn"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="image/medium.png" alt="Medium"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="image/github.png" alt="Github"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="image/v.png" alt="V"
-                /></a>
-              </li>
-            </ul>
-            <button class="btn-default" type="button">Get my bio-data</button>
-          </div>
-          <ul class="skill-list">
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Languages</h3>
-                <button class="btn-chev" type="button">
-                  <img src="image/chev-dow.png" alt="" />
-                </button>
-              </div>
-              <div class="separator-line"></div>
-              <ul class="language-list">
-                <li>
-                  <img src="image/javascript.png" alt="JavaScript" />JavaScript</li>
-                <li>
-                  <img src="image/html.png" alt="HTML" />HTML</li>
-                <li>
-                  <img src="image/css.png" alt="CSS" />CSS</li>
-              </ul>
-            <!-- /languages -->
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Frameworks</h3>
-                <button class="btn-chev" type="button">
-                  <img src="image/chev-right.png" alt="" />
-                </button>
-              </div>
-              <div class="separator-line"></div>
-            </li>
-            <!-- /Frameworks -->
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Skills</h3>
-                <button class="btn-chev" type="button">
-                  <img src="image/chev-right.png" alt="" />
-                </button>
-              </div>
-             </li>
-            <!-- /Skills -->
-          </ul>
-        </section>
-        <section class="contact-me">
-          <h2>Contact me</h2>
-          <p>
-            Feel free to contact me if any of your development needs any sorts of modification .
-          </p>
-          <form class="contact-form" action="https://formspree.io/f/xayknkna" method="POST">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              maxlength="30"
-              required />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-            <textarea
-              name="message"
-              cols="30"
-              rows="6"
-              placeholder="Write your message here"
-              maxlength="500"
-              required
-            ></textarea>
-            <button class="btn-submit" type="submit">Get connected</button>
-          </form>
-        </section>
-      </main>
+        </div>
+      </section>
     </div>
+
+    <!-- Divide Arrow -->
+    <div class="bottom-arrow1">
+      <div>
+        <a href="#">
+          <span class="bottom1"></span>
+        </a>
+      </div>
+    </div>
+    <!-- Works Section -->
+    <section class="work-section">
+      <h2 class="works-title">My Recent Works</h2>
+      <div class="projects-container">
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3>Multi-Post Stories Gain+Glory</h3>
+            <ul>
+              <li>Ruby on rails</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="#" class="btn">See Project</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3>Multi-Post Stories Gain+Glory</h3>
+            <ul>
+              <li>Ruby on rails</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="#" class="btn">See Project</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3>Multi-Post Stories Gain+Glory</h3>
+            <ul>
+              <li>Ruby on rails</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="#" class="btn">See Project</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3>Multi-Post Stories Gain+Glory</h3>
+            <ul>
+              <li>Ruby on rails</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="#" class="btn">See Project</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3>Multi-Post Stories Gain+Glory</h3>
+            <ul>
+              <li>Ruby on rails</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="#" class="btn">See Project</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-description">
+            <h3>Multi-Post Stories Gain+Glory</h3>
+            <ul>
+              <li>Ruby on rails</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="#" class="btn">See Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About me Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-description">
+          <h3 class="about-title">About me</h3>
+          <p class="about-text">
+            If you have a project to be coded or you need any modification in the existing project do not hestiate to contact me.
+          </p>
+          <a href="#" class="btn">Get My Resume</a>
+        </div>
+        <div class="about-skills-container">
+          <div class="about-skills">
+          <div class="skills about-languages">
+            <div class="icon">
+              <img src="images/Icons(2).png" alt="" />
+            </div>
+            <h4>Languages</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-skills">
+          <div class="skills about-framework">
+            <div class="icon">
+              <img src="images/Icons.png" alt="" />
+            </div>
+            <h4>Framework</h4>
+            <ul>
+              <li>Bootstrap</li>
+              <li>RSpec</li>
+              <li>Selenium</li>
+              <li>Ruby on Rails</li>
+              <li>Capybara</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-skills">
+          <div class="skills about-skill">
+            <div class="icon">
+              <img src="images/Icons(1).png" alt="" />
+            </div>
+            <h4>Skills</h4>
+            <ul>
+              <li>CodeKit</li>
+              <li>GitHub</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container-contact">
+        <div class="container-contact2">
+          <h2 class="contact-description">
+            I am interested in knowing about new projects, so if you would like to communicate please get in touch with me.
+        </h2>
+        <form action="https://formspree.io/f/xayknkna" method="POST">
+          <div class="name-form">
+            <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="First Name"
+            maxlength="30"
+            required
+          />
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Last Name"
+            maxlength="30"
+            required
+          />
+          </div>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            required
+          />
+
+          <textarea
+            name="comment"
+            placeholder="Enter text here"
+            id="comment"
+            cols="30"
+            rows="10"
+            maxlength="500"
+          ></textarea>
+
+          <!-- your other form fields go here -->
+          <button type="submit" class="btn">Get in touch</button>
+        </form>
+        </div>
+        
+      </div>
+      <div class="social-link">
+        <hr>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-angellist"></i></a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  class="meduim-logo"
+                  src="images/Font_Awesome_5_brands_medium-m.svg.png"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+    </section>
   </body>
 </html>
