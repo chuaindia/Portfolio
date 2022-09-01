@@ -1,3 +1,6 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+/* stylelint-disable indentation */
+/* stylelint-disable no-eol-whitespace */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* General page style */
@@ -276,7 +279,7 @@ form > .btn {
   font-size: 12px;
   font-weight: 500;
   margin: 5px 0;
-  padding: 10px;
+  padding: 8px 12px;
   background-color: #ebf0ee;
   border-radius: 5px;
 }
@@ -620,6 +623,15 @@ footer {
     transform: rotate(135deg);
   }
 
+  .project-description ul > li {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px 0;
+    padding: 8px 12px;
+    background-color: #ebf0ee;
+    border-radius: 5px;
+  }
+  
   .projects-container {
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
@@ -738,7 +750,7 @@ footer {
     width: 100%;
   }
 
-  form > .name-form > input[type="text"],
+  form > input[type="text"],
   form > input[type="email"],
   form > textarea {
     width: 100%;
@@ -762,6 +774,11 @@ footer {
     margin: 1rem auto 1rem 10px;
   }
 
+  .btn:hover {
+      background-color: rgb(32, 172, 182);
+      border: 1px solid rgb(153, 19, 19);
+  }
+    
   .contact-section > .social-link > ul > li {
     padding: 10px;
   }
