@@ -1,33 +1,30 @@
-# My Portfolio
+Project Name
+DESKTOP version of PORTFOLIO project :
 
-> Description the project.
-> This project contains my personal information and all the projects I have built using HTML and CSS.
-> In this part of the project I designed the header section(toolbar) and Headline section
+This project is the portfolio project following figma template. This is Desktop version. This project contains my
+my own information. This is written in HTML and CSS. Linter checks are used to make it error free.
 
-## Built With
+Prerequisites :
+GITHUB concepts
+HTML
+CSS
+FIGMA
 
-- HTML
-- CSS
+Author: Tanusri Ghosh
 
-## Authors
+Contacts:
+e-mail id: tghosh25@gmail.com
 
-👤 **Tanusri Ghosh**
+Twitter url: https://twitter.com/chuaghosh25
 
-- GitHub: [@chuaindia](https://github.com/chuaindia)
-- Twitter: [@chuaghosh25](https://twitter.com/chuaghosh25)
-- LinkedIn: [Tanusri Ghosh](https://www.linkedin.com/in/tanusri-ghosh-2a56b814//)
+LinkedIn url: https://www.linkedin.com/in/tanusri-ghosh-2a56b814
 
-## 🤝 Contributing
+GitHub url: https://github.com/chuaindia
 
-Contributions, issues, and feature requests are welcome!
+All sorts of contributions, issues, and feature requests regarding the project are welcome!
 
-## Show your support
+Acknowledgments : I am very much grateful to Zied Ben Amor who guided me a lot for this project. 
 
-Give a ⭐ if you like this project!
+memo License
 
-## 📝 License
-
-
-This project is [MIT](./LICENSE) licensed.
-
-
+This project is MIT licensed.

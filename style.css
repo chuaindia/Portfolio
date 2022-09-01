@@ -459,12 +459,6 @@ form > textarea:focus {
 }
 hr { display: none; }
 
-footer {
-  height: 200px;
-  margin-top: 15rem;
-  text-align: center;
-}
-
 @media screen and (min-device-width: 768px) {
   header {
     justify-content: center;
