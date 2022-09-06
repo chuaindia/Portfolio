@@ -770,7 +770,10 @@ hr { display: none; }
 
   .btn:hover {
       background-color: rgb(32, 172, 182);
-      border: 1px solid rgb(153, 19, 19);
+      border: 2px solid rgb(153, 19, 19);
+      border-radius: 3px;
+      font-size: 1.5rem;
+      margin: 1rem auto;
   }
     
   .contact-section > .social-link > ul > li {
