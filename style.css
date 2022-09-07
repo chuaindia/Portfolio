@@ -1,27 +1,31 @@
-html{
+/* stylelint-disable declaration-block-semicolon-space-before */
+/* stylelint-disable declaration-colon-space-after */
+/* stylelint-disable no-missing-end-of-source-newline */
+/* stylelint-disable indentation */
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.m-heading{
+.m-heading {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
-.p-color{
+.p-color {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(50, 3, 139);
 }
 
-.navigation-link{
+.navigation-link {
     border: 2px solid transparent;
 }
 
-.navigation-link:hover{
+.navigation-link:hover {
     border-bottom: 2px solid yellowgreen;
     transition: 0.5s ease;
 }
@@ -66,6 +70,6 @@ body{
     border-radius: 0.5rem;
 }
 
-.row:hover {
-    color:rgb(132, 0, 255);
+#social-mediaw:hover {
+    background-color: rgb(185, 255, 127);
 }
