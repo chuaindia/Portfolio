@@ -57,9 +57,8 @@ ul {
 .contact-section > .social-link {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .project-description > ul {
@@ -99,6 +98,7 @@ form > .btn {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  align-items: center;
   line-height: 52px;
   color: #172b4d;
 }
