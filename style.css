@@ -1,47 +1,113 @@
+/* stylelint-disable selector-descendant-combinator-no-non-space */
 /* stylelint-disable no-missing-end-of-source-newline */
 /* stylelint-disable indentation */
 /* stylelint-disable no-eol-whitespace */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap');
 
 /* General page style */
-* {
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  font-family: "roboto", Arial, Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0%;
 }
 
-a {
-  text-decoration: none;
+html,
+body {
+  font-size: 1rem;
+  box-sizing: inherit;
 }
 
-/* navbar Style */
-header {
-  align-items: center;
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
-
-  /* background-color: #fff; */
-
-  /* opacity: 0.9; */
+body {
+  background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  color: #172b4d;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 10vh;
+.navbar nav {
+  display: none;
+  position: fixed;
+  z-index: 10000;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
+  right: 0;
+  top: 0;
+  background: hsla(234, 100%, 75%, 0.802);
+  backdrop-filter: blur(0.3rem);
+  height: 100vh;
+}
+
+.active {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background: hsla(234, 100%, 75%, 0.802);
+  backdrop-filter: blur(0.3rem);
+  height: 100vh;
+}
+
+.all-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.closebutton {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border: 2px solid #67798e;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 0.5em;
+  text-align: right;
+  cursor: pointer;
+}
+
+nav li a:hover {
+  font-weight: bold;
+  text-shadow: #5667fd;
+}
+
+.navbar.welcomeHeaderContainer {
+  display: flex;
+  place-content: space-between;
 }
 
 ul {
   list-style-type: none;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.welcomeHeaderContainer {
   display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+}
+
+.heading h1 {
+  font-size: 2.5rem;
+  line-height: 3.25rem;
 }
 
 .skills > ul {
@@ -51,7 +117,7 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .contact-section > .social-link {
@@ -59,6 +125,34 @@ ul {
   flex-direction: row;
   align-items: center;
   margin-top: 10px;
+
+  /* imported */
+
+  width: 90px;
+  height: 28px;
+
+/* Theme 2 / Subhead 1 
+font-family: 'Inter'; */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+
+/* identical to box height, or 140% 
+display: flex;
+align-items: center; */
+text-align: center;
+
+/* Theme 2 / Neutral 1 
+
+color: #28352F; */
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 .project-description > ul {
@@ -71,16 +165,7 @@ ul {
   justify-content: space-around;
 }
 
-.navItems {
-  display: none;
-}
-
-.hamburger-menu {
-  color: black;
-  font-size: 1.2rem;
-}
-
-form > .btn {
+.form > .btn {
   border-radius: 5px;
   font-size: 1.3rem;
   text-align: center;
@@ -105,10 +190,10 @@ form > .btn {
 
 /* Welcome Section Style */
 .welcome-link {
-  text-decoration: none;
-  font-weight: 800;
+  /* text-decoration: none;
+  font-weight: 800; */
   color: black;
-}
+  }
 
 .welcome-section {
   background-image: url("/images/header-illsutration-mobile.png");
@@ -162,11 +247,6 @@ form > .btn {
   justify-content: space-between;
 }
 
-.welcome-section > .container > .social-link {
-  margin-top: 7vh;
-  width: 50%;
-}
-
 .meduim-logo {
   width: 28px;
   opacity: 0.7;
@@ -178,9 +258,6 @@ form > .btn {
   color: #4d4d4d;
 }
 
-/* .bottom-arrow{
-  display: none;
- } */
 .bottom-arrow1 {
   display: flex;
   justify-content: center;
@@ -486,7 +563,7 @@ hr { display: none; }
   }
 
   nav {
-    display: flex;
+    display: inline;
     height: 10vh;
     width: 100%;
     justify-content: center;

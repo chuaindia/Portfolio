@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -15,23 +17,26 @@
   </head>
 
   <body>
-    <!-- Header Section -->
-    <div class="welcomeHeaderContainer">
-      <header>
-        <nav>
-          <div class="logo-welcome">
-            <a href="#" class="welcome-link">Welcome</a>
-          </div>
-          <a href="#" class="hamburger-menu"
-            ><i class="fa-solid fa-bars"></i
-          ></a>
-          <ul class="navItems">
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Contact">Contact</a></li>
+   
+      <!-- Header Section -->
+    
+      <div class="navbar"> 
+        <div class="welcomeHeaderContainer">
+          <a href="#" class="welcome-link">Welcome</a>
+          <a href="#" class="hamburger-menu" id="menu-btn"><i class="fa-solid fa-bars"></i></a>
+          <nav id="nav" class="all-nav active">
+          
+          <a href="#" href="#" class="closebutton" id="close-btn"><i class = "fa fa-close"></i></a> 
+          <ul class="hamburger">
+            <li><a class="navItems" href="#portfolio">Portfolio</a></li>
+            <li><a class="navItems" href="#About">About</a></li>
+            <li><a class="navItems" href="#Contact">Contact</a></li>
           </ul>
         </nav>
-      </header>
+        </div>
+      </div>
+    
+
       <!-- Welcome Section -->
       <section>
         <div class="welcome-section">
@@ -313,5 +318,6 @@
           </ul>
         </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
